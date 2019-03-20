@@ -1,0 +1,70 @@
+/usr/bin/python3: Error while finding spec for 'visdom.server' (ImportError: No module named 'visdom')
+/usr/bin/python3: Error while finding spec for 'visdom.server' (ImportError: No module named 'visdom')
+INFO:root:Application Started
+/usr/bin/python3: Error while finding spec for 'visdom.server' (ImportError: No module named 'visdom')
+Downloading scripts. It might take a while.
+It's Alive!
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1063, in <module>
+    main()
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1058, in main
+    start_server(port=FLAGS.port, env_path=FLAGS.env_path, readonly=FLAGS.readonly, print_func=print_func)
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1018, in start_server
+    app.listen(port, max_buffer_size=1024 ** 3)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/web.py", line 1986, in listen
+    server.listen(port, address)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/tcpserver.py", line 144, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/netutil.py", line 163, in bind_sockets
+    sock.bind(sockaddr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Downloading scripts. It might take a while.
+It's Alive!
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1063, in <module>
+    main()
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1058, in main
+    start_server(port=FLAGS.port, env_path=FLAGS.env_path, readonly=FLAGS.readonly, print_func=print_func)
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1018, in start_server
+    app.listen(port, max_buffer_size=1024 ** 3)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/web.py", line 1986, in listen
+    server.listen(port, address)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/tcpserver.py", line 144, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/netutil.py", line 163, in bind_sockets
+    sock.bind(sockaddr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Downloading scripts. It might take a while.
+It's Alive!
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1063, in <module>
+    main()
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1058, in main
+    start_server(port=FLAGS.port, env_path=FLAGS.env_path, readonly=FLAGS.readonly, print_func=print_func)
+  File "/home/smokersan/.virtualenvs/dl_frame/lib/python2.7/site-packages/visdom/server.py", line 1018, in start_server
+    app.listen(port, max_buffer_size=1024 ** 3)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/web.py", line 1986, in listen
+    server.listen(port, address)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/tcpserver.py", line 144, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/smokersan/.virtualenvs/dl_frame/local/lib/python2.7/site-packages/tornado/netutil.py", line 163, in bind_sockets
+    sock.bind(sockaddr)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
